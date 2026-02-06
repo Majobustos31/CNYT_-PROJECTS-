@@ -1,6 +1,6 @@
 import unittest
 import math
-from Libreria_complejos import *
+from complexlib.libreria_complejos import *
 
 class TestComplexOperations(unittest.TestCase):
 
