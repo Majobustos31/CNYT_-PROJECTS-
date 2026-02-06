@@ -24,35 +24,38 @@ Clonar el repositorio:
 git clone https://github.com/tu_usuario/complex_numbers.git
 cd complex_numbers
 
-```bash
+
+## Running the tests
 python -m unittest discover tests
 
-# Built With
+## Built With
 
-- Python 3
+#- Python 3
 
-- unittest
+#- unittest
 
-# Features
+## Features
 
-La librería soporta las siguientes operaciones con números complejos:
+# La librería soporta las siguientes operaciones con números complejos:
 
-- Suma
+#- Suma
 
-- Resta
+#- Resta
 
-- Producto
+#- Producto
 
-- División
+#- División
 
-- Módulo
+#- Módulo
 
-- Conjugado
+#- Conjugado
 
-- Fase
+#- Fase
 
-- Conversión entre coordenadas cartesianas y polares
+#- Conversión entre coordenadas cartesianas y polares
 
-# Authors
+## Authors
 
-- Maria Jose Bustos
+#- Maria Jose Bustos
+
+```bash
