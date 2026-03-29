@@ -34,3 +34,32 @@ print("U2 es unitaria:", es_unitaria(U2))
 # Producto
 producto = np.dot(U1, U2)
 print("Producto es unitaria:", es_unitaria(producto))
+
+#4.4.2
+import numpy as np
+
+# Estado inicial |00>
+psi0 = np.array([1, 0, 0, 0], dtype=complex)
+
+# Operador U
+sqrt2 = np.sqrt(2)
+U = np.array([
+    [0, 1/sqrt2, 1/sqrt2, 0],
+    [1/sqrt2, 0, 0, 1/sqrt2],
+    [1/sqrt2, 0, 0, -1/sqrt2],
+    [0, 1/sqrt2, -1/sqrt2, 0]
+], dtype=complex)
+
+def evolve(U, psi, steps):
+    for _ in range(steps):
+        psi = U @ psi
+    return psi
+
+# Evolución
+psi3 = evolve(U, psi0, 3)
+
+# Probabilidad de |01> (índice 1)
+prob_01 = abs(psi3[1])**2
+
+print("Estado final:", psi3)
+print("Probabilidad de |01>:", prob_01)
