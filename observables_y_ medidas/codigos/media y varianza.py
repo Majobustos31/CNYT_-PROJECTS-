@@ -1,4 +1,4 @@
-import numpy as np
+import nunpy as np
 def is_hermitian(A):
     return np.allclose(A, A.conj().T)
 

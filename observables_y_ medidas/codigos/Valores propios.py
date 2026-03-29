@@ -1,4 +1,4 @@
-import numpy as np
+import nunpy as np
 def eigen_probabilities(A, psi):
     eigenvalues, eigenvectors = np.linalg.eigh(A)
     
