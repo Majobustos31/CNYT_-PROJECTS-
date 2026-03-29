@@ -2,118 +2,100 @@
 
 ## 🧠 Introducción
 
-En mecánica cuántica, los sistemas compuestos se describen mediante el **producto tensorial** de los espacios de estado de sus subsistemas. Un concepto fundamental es distinguir entre:
+En mecánica cuántica, los sistemas compuestos se describen mediante el producto tensorial. Existen dos tipos de estados:
 
-* **Estados separables**: pueden factorizarse como producto tensorial.
-* **Estados entrelazados (entangled)**: no pueden escribirse como producto de estados individuales.
-
-Este repositorio contiene la discusión y análisis de los ejercicios **4.5.2** y **4.5.3**, que ilustran esta diferencia.
+- **Separables**: se pueden escribir como producto de estados individuales.
+- **Entrelazados**: no se pueden factorizar.
 
 ---
 
 ## ✏️ Ejercicio 4.5.2
 
-Se considera el estado:
+Estado:
 
-[
-|\psi\rangle = |x_0\rangle \otimes |y_0\rangle + |x_1\rangle \otimes |y_1\rangle
-]
+|ψ⟩ = |x0⟩ ⊗ |y0⟩ + |x1⟩ ⊗ |y1⟩
 
 ### 🔍 Análisis
 
-Intentamos escribirlo como un producto tensorial de dos estados:
+Intentamos escribirlo como:
 
-[
-|\psi\rangle = (c_0 |x_0\rangle + c_1 |x_1\rangle) \otimes (d_0 |y_0\rangle + d_1 |y_1\rangle)
-]
+|ψ⟩ = (c0|x0⟩ + c1|x1⟩) ⊗ (d0|y0⟩ + d1|y1⟩)
 
 Al expandir:
 
-[
-= c_0 d_0 |x_0\rangle \otimes |y_0\rangle + c_0 d_1 |x_0\rangle \otimes |y_1\rangle + c_1 d_0 |x_1\rangle \otimes |y_0\rangle + c_1 d_1 |x_1\rangle \otimes |y_1\rangle
-]
+c0d0 |x0⟩⊗|y0⟩  
+c0d1 |x0⟩⊗|y1⟩  
+c1d0 |x1⟩⊗|y0⟩  
+c1d1 |x1⟩⊗|y1⟩  
 
-Comparando términos, obtenemos el sistema:
+Comparando términos:
 
-* (c_0 d_0 = 1)
-* (c_1 d_1 = 1)
-* (c_0 d_1 = 0)
-* (c_1 d_0 = 0)
+- c0 d0 = 1  
+- c1 d1 = 1  
+- c0 d1 = 0  
+- c1 d0 = 0  
 
-### ⚠️ Conclusión
+### ❌ Conclusión
 
-Este sistema no tiene solución consistente. Por lo tanto:
+No hay solución consistente.
 
-👉 El estado **no es separable**
-👉 Es un estado **entrelazado**
+→ El estado es **entrelazado (no separable)**.
 
-### 🧩 Interpretación física
+### 🧩 Interpretación
 
-* No se puede describir cada partícula de forma independiente
-* Medir una partícula determina instantáneamente el estado de la otra
+- Las partículas no son independientes  
+- Medir una afecta a la otra  
 
 ---
 
 ## ✏️ Ejercicio 4.5.3
 
-Se considera el estado:
+Estado:
 
-[
-|\phi\rangle = (|x_0\rangle + |x_1\rangle) \otimes |y_1\rangle
-]
+|φ⟩ = (|x0⟩ + |x1⟩) ⊗ |y1⟩
 
 ### 🔍 Análisis
 
-Este estado ya está en forma factorizada:
+Ya está en forma factorizada:
 
-* ( |\alpha\rangle = |x_0\rangle + |x_1\rangle )
-* ( |\beta\rangle = |y_1\rangle )
+|φ⟩ = |α⟩ ⊗ |β⟩
+
+donde:
+
+- |α⟩ = |x0⟩ + |x1⟩  
+- |β⟩ = |y1⟩  
 
 ### ✅ Conclusión
 
-👉 El estado **sí es separable**
+→ El estado es **separable**.
 
-### 🧩 Interpretación física
+### 🧩 Interpretación
 
-* Las partículas son independientes
-* No hay correlaciones cuánticas
-* Medir una no afecta a la otra
+- No hay correlaciones cuánticas  
+- Las mediciones son independientes  
 
 ---
 
 ## ⚖️ Comparación
 
-| Propiedad          | Ejercicio 4.5.2 | Ejercicio 4.5.3 |
-| ------------------ | --------------- | --------------- |
-| Separabilidad      | ❌ No            | ✅ Sí            |
-| Tipo de estado     | Entrelazado     | Separable       |
-| Correlaciones      | Cuánticas       | Independientes  |
-| Dependencia medida | Sí              | No              |
+| Propiedad      | Ej. 4.5.2   | Ej. 4.5.3 |
+|----------------|------------|----------|
+| Separabilidad | ❌ No       | ✅ Sí     |
+| Tipo          | Entrelazado | Separable |
+| Correlación   | Cuántica    | Ninguna   |
 
 ---
 
 ## 🚀 Conclusión
 
-Estos ejercicios muestran la diferencia esencial entre estados separables y entrelazados. El **entrelazamiento** es una propiedad fundamental de la mecánica cuántica y tiene aplicaciones en:
+El entrelazamiento es una propiedad fundamental de la mecánica cuántica y base de:
 
-* Computación cuántica
-* Criptografía cuántica
-* Teleportación cuántica
+- Computación cuántica  
+- Criptografía cuántica  
+- Teleportación cuántica  
 
 ---
 
 ## 📎 Autor
 
-Tu nombre aquí ✍️
-
----
-
-## 📌 Notas
-
-Puedes extender este análisis usando:
-
-* Matrices de densidad
-* Traza parcial
-* Descomposición de Schmidt
-
----
+Tu nombre aquí
