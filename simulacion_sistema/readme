@@ -1,4 +1,4 @@
-# 📘 Ejercicios 4.5.2 y 4.5.3 — Separabilidad y Entrelazamiento
+# Ejercicios 4.5.2 y 4.5.3 — Separabilidad y Entrelazamiento
 
 ## Introducción
 
@@ -54,7 +54,7 @@ Estado:
 
 |φ⟩ = (|x0⟩ + |x1⟩) ⊗ |y1⟩
 
-### 🔍 Análisis
+### Análisis
 
 Ya está en forma factorizada:
 
@@ -65,11 +65,11 @@ donde:
 - |α⟩ = |x0⟩ + |x1⟩  
 - |β⟩ = |y1⟩  
 
-### ✅ Conclusión
+### Conclusión
 
 → El estado es **separable**.
 
-### 🧩 Interpretación
+### Interpretación
 
 - No hay correlaciones cuánticas  
 - Las mediciones son independientes  
