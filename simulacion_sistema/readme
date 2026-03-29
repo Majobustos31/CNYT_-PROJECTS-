@@ -1,0 +1,119 @@
+# 📘 Ejercicios 4.5.2 y 4.5.3 — Separabilidad y Entrelazamiento
+
+## 🧠 Introducción
+
+En mecánica cuántica, los sistemas compuestos se describen mediante el **producto tensorial** de los espacios de estado de sus subsistemas. Un concepto fundamental es distinguir entre:
+
+* **Estados separables**: pueden factorizarse como producto tensorial.
+* **Estados entrelazados (entangled)**: no pueden escribirse como producto de estados individuales.
+
+Este repositorio contiene la discusión y análisis de los ejercicios **4.5.2** y **4.5.3**, que ilustran esta diferencia.
+
+---
+
+## ✏️ Ejercicio 4.5.2
+
+Se considera el estado:
+
+[
+|\psi\rangle = |x_0\rangle \otimes |y_0\rangle + |x_1\rangle \otimes |y_1\rangle
+]
+
+### 🔍 Análisis
+
+Intentamos escribirlo como un producto tensorial de dos estados:
+
+[
+|\psi\rangle = (c_0 |x_0\rangle + c_1 |x_1\rangle) \otimes (d_0 |y_0\rangle + d_1 |y_1\rangle)
+]
+
+Al expandir:
+
+[
+= c_0 d_0 |x_0\rangle \otimes |y_0\rangle + c_0 d_1 |x_0\rangle \otimes |y_1\rangle + c_1 d_0 |x_1\rangle \otimes |y_0\rangle + c_1 d_1 |x_1\rangle \otimes |y_1\rangle
+]
+
+Comparando términos, obtenemos el sistema:
+
+* (c_0 d_0 = 1)
+* (c_1 d_1 = 1)
+* (c_0 d_1 = 0)
+* (c_1 d_0 = 0)
+
+### ⚠️ Conclusión
+
+Este sistema no tiene solución consistente. Por lo tanto:
+
+👉 El estado **no es separable**
+👉 Es un estado **entrelazado**
+
+### 🧩 Interpretación física
+
+* No se puede describir cada partícula de forma independiente
+* Medir una partícula determina instantáneamente el estado de la otra
+
+---
+
+## ✏️ Ejercicio 4.5.3
+
+Se considera el estado:
+
+[
+|\phi\rangle = (|x_0\rangle + |x_1\rangle) \otimes |y_1\rangle
+]
+
+### 🔍 Análisis
+
+Este estado ya está en forma factorizada:
+
+* ( |\alpha\rangle = |x_0\rangle + |x_1\rangle )
+* ( |\beta\rangle = |y_1\rangle )
+
+### ✅ Conclusión
+
+👉 El estado **sí es separable**
+
+### 🧩 Interpretación física
+
+* Las partículas son independientes
+* No hay correlaciones cuánticas
+* Medir una no afecta a la otra
+
+---
+
+## ⚖️ Comparación
+
+| Propiedad          | Ejercicio 4.5.2 | Ejercicio 4.5.3 |
+| ------------------ | --------------- | --------------- |
+| Separabilidad      | ❌ No            | ✅ Sí            |
+| Tipo de estado     | Entrelazado     | Separable       |
+| Correlaciones      | Cuánticas       | Independientes  |
+| Dependencia medida | Sí              | No              |
+
+---
+
+## 🚀 Conclusión
+
+Estos ejercicios muestran la diferencia esencial entre estados separables y entrelazados. El **entrelazamiento** es una propiedad fundamental de la mecánica cuántica y tiene aplicaciones en:
+
+* Computación cuántica
+* Criptografía cuántica
+* Teleportación cuántica
+
+---
+
+## 📎 Autor
+
+Tu nombre aquí ✍️
+
+---
+
+## 📌 Notas
+
+Puedes extender este análisis usando:
+
+* Matrices de densidad
+* Traza parcial
+* Descomposición de Schmidt
+
+---
