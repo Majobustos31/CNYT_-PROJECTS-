@@ -1,6 +1,6 @@
 # 📘 Ejercicios 4.5.2 y 4.5.3 — Separabilidad y Entrelazamiento
 
-## 🧠 Introducción
+## Introducción
 
 En mecánica cuántica, los sistemas compuestos se describen mediante el producto tensorial. Existen dos tipos de estados:
 
@@ -9,13 +9,13 @@ En mecánica cuántica, los sistemas compuestos se describen mediante el product
 
 ---
 
-## ✏️ Ejercicio 4.5.2
+##  Ejercicio 4.5.2
 
 Estado:
 
 |ψ⟩ = |x0⟩ ⊗ |y0⟩ + |x1⟩ ⊗ |y1⟩
 
-### 🔍 Análisis
+### Análisis
 
 Intentamos escribirlo como:
 
@@ -35,20 +35,20 @@ Comparando términos:
 - c0 d1 = 0  
 - c1 d0 = 0  
 
-### ❌ Conclusión
+### Conclusión
 
 No hay solución consistente.
 
 → El estado es **entrelazado (no separable)**.
 
-### 🧩 Interpretación
+###  Interpretación
 
 - Las partículas no son independientes  
 - Medir una afecta a la otra  
 
 ---
 
-## ✏️ Ejercicio 4.5.3
+## Ejercicio 4.5.3
 
 Estado:
 
@@ -76,17 +76,17 @@ donde:
 
 ---
 
-## ⚖️ Comparación
+## Comparación
 
-| Propiedad      | Ej. 4.5.2   | Ej. 4.5.3 |
-|----------------|------------|----------|
-| Separabilidad | ❌ No       | ✅ Sí     |
+| Propiedad    | Ej. 4.5.2 | Ej. 4.5.3 |
+|---------------|----------|----------|
+| Separabilidad | No       | Sí     |
 | Tipo          | Entrelazado | Separable |
 | Correlación   | Cuántica    | Ninguna   |
 
 ---
 
-## 🚀 Conclusión
+## Conclusión
 
 El entrelazamiento es una propiedad fundamental de la mecánica cuántica y base de:
 
@@ -96,6 +96,6 @@ El entrelazamiento es una propiedad fundamental de la mecánica cuántica y base
 
 ---
 
-## 📎 Autor
+## Autor
 
-Tu nombre aquí
+Maria Jose bustos
